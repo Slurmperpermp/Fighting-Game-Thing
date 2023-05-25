@@ -9,7 +9,7 @@
 [ext_resource type="AudioStream" uid="uid://gdeg365ghhoj" path="res://sound (1).wav" id="7_bkhpy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q5ln3"]
-size = Vector2(107, 110)
+size = Vector2(60, 110)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_461m1"]
 atlas = ExtResource("2_cayiq")
@@ -282,7 +282,7 @@ SPEED = 500.0
 JUMP_VELOCITY = -500.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(2, -55)
+position = Vector2(0, -55)
 shape = SubResource("RectangleShape2D_q5ln3")
 debug_color = Color(0.639216, 0.431373, 0.780392, 0.419608)
 

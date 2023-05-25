@@ -101,7 +101,7 @@ func enterMove():
 
 
 func processMove(delta):
-	if(playerInput.y != 0):
+	if(playerInput.y != 0 || !is_on_floor()):
 		enterJump()
 		return
 	if(Input.is_action_just_pressed("Attack")):
